@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.258 s <<< FAILURE! - in TestSuite
+Academy.ValidateTitle.validateTitle  Time elapsed: 0.649 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<FEATURED COURSES[]> but was:<FEATURED COURSES[123]>
+	at Academy.ValidateTitle.validateTitle(ValidateTitle.java:45)
+

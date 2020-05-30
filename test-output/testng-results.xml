@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44741" started-at="2020-05-22T10:54:18 BST" finished-at="2020-05-22T10:55:02 BST">
+    <groups>
+    </groups>
+    <test name="HomePageChecks" duration-ms="15314" started-at="2020-05-22T10:54:18 BST" finished-at="2020-05-22T10:54:33 BST">
+      <class name="Academy.HomePageChecks">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePageChecks@58fdd99]" name="initialize" is-config="true" duration-ms="12011" started-at="2020-05-22T10:54:18 BST" finished-at="2020-05-22T10:54:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateHomePage(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePageChecks@58fdd99]" name="validateHomePage" duration-ms="3199" started-at="2020-05-22T10:54:30 BST" data-provider="getData" finished-at="2020-05-22T10:54:33 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username1@user.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:Academy.HomePageChecks@58fdd99]" name="closeBrowsers" is-config="true" duration-ms="68" started-at="2020-05-22T10:54:33 BST" finished-at="2020-05-22T10:54:33 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- Academy.HomePageChecks -->
+    </test> <!-- HomePageChecks -->
+    <test name="ValidateTitle" duration-ms="12005" started-at="2020-05-22T10:54:33 BST" finished-at="2020-05-22T10:54:45 BST">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateTitle@971d0d8]" name="initialize" is-config="true" duration-ms="11367" started-at="2020-05-22T10:54:33 BST" finished-at="2020-05-22T10:54:45 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validateTitle()[pri:0, instance:Academy.ValidateTitle@971d0d8]" name="validateTitle" duration-ms="43" started-at="2020-05-22T10:54:45 BST" finished-at="2020-05-22T10:54:45 BST">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<FEATURED COURSES[]> but was:<FEATURED COURSES[123]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<FEATURED COURSES[]> but was:<FEATURED COURSES[123]>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at Academy.ValidateTitle.validateTitle(ValidateTitle.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:Academy.ValidateTitle@971d0d8]" name="closeBrowsers" is-config="true" duration-ms="50" started-at="2020-05-22T10:54:45 BST" finished-at="2020-05-22T10:54:45 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- ValidateTitle -->
+    <test name="ValidateNavBar" duration-ms="17090" started-at="2020-05-22T10:54:45 BST" finished-at="2020-05-22T10:55:02 BST">
+      <class name="Academy.ValidateNavBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateNavBar@6279cee3]" name="initialize" is-config="true" duration-ms="12728" started-at="2020-05-22T10:54:45 BST" finished-at="2020-05-22T10:54:58 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateNavBar()[pri:0, instance:Academy.ValidateNavBar@6279cee3]" name="validateNavBar" duration-ms="42" started-at="2020-05-22T10:54:58 BST" finished-at="2020-05-22T10:54:58 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavBar -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:Academy.ValidateNavBar@6279cee3]" name="closeBrowsers" is-config="true" duration-ms="4318" started-at="2020-05-22T10:54:58 BST" finished-at="2020-05-22T10:55:02 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- Academy.ValidateNavBar -->
+    </test> <!-- ValidateNavBar -->
+  </suite> <!-- Suite -->
+</testng-results>
