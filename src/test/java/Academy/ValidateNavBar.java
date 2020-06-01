@@ -37,7 +37,7 @@ public class ValidateNavBar extends Base{
 				
 		LandingPage lp = new LandingPage(driver);
 		
-		
+		System.out.println("changes to be made");
 		
 		
 		Assert.assertTrue(lp.getnavbar().isDisplayed());
